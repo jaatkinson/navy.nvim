@@ -3,6 +3,8 @@
 local M = {}
 
 function M.set_highlights()
+
+    vim.highlight.priorities.semantic_tokens = 100
     local hl = vim.api.nvim_set_hl
 
     hl(0, "Normal", { fg = "#c7c9d1", bg = "#161822" })
