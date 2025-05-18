@@ -12,7 +12,7 @@ function M.init(theme)
         vim.cmd("syntax reset")
     end
 
-    vim.g.colors_name = "iceberg"
+    vim.g.colors_name = "navy"
     vim.o.termguicolors = true
 
     palette = require(string.format("iceberg.highlights-%s", theme))
