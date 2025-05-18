@@ -45,7 +45,7 @@ return {
         c = { bg = "#2e313f", fg = "#e8e9ec" },
     },
     insert = {
-        a = { bg = "#e27878", fg = "#2e313f" },
+        a = { bg = "#5d3449", fg = "#2e313f" },
         b = { bg = "#2e313f", fg = "#e8e9ec" },
         c = { bg = "#2e313f", fg = "#e8e9ec" },
     },
