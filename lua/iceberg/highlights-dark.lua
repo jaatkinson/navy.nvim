@@ -238,7 +238,7 @@ function M.set_highlights()
     hl(0, "@lsp.type.parameter", { link = "@variable.parameter" })
     hl(0, "@lsp.type.variable", { link = "icebergNormalFg" })
     hl(0, "@lsp.type.parameter.javascript", { link = "@variable.parameter", bold = true })
-    hl(0, "@lsp.type.property.javascript", { fg = "#fff"})
+    hl(0, "@lsp.type.property.javascript", { fg = "#ffffff", bg = "NONE"})
 
     hl(0, "@variable.builtin", { link = "Statement" })
     hl(0, "@variable", { link = "icebergNormalFg" })
