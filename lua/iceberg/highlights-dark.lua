@@ -109,6 +109,13 @@ function M.set_highlights()
 
     hl(0, "FloatTitle", { fg = "#e2a578", bg = "NONE" })
 
+
+    hl(0, "BlinkCmpMenu", { fg = "#c7c9d1", bg = "NONE" })
+    hl(0, "BlinkCmpMenuBorder", { fg = "#3e4757", bg = "NONE" })
+
+    hl(0, "BlinkCmpDoc", { fg = "#c7c9d1", bg = "NONE" })
+    hl(0, "BlinkCmpDocBorder", { fg = "#3e4757", bg = "NONE" })
+
     hl(0, "Uri", { fg = "#89b9c2", bg = "NONE", underline = true })
     hl(0, "CmpItemAbbr", { link = "icebergNormalFg" })
     hl(0, "CmpItemAbbrDeprecated", { fg = "#6c7189", bg = "NONE" })
