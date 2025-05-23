@@ -110,8 +110,10 @@ function M.set_highlights()
     hl(0, "FloatTitle", { fg = "#e2a578", bg = "NONE" })
 
 
-    hl(0, "BlinkCmpMenu", { fg = "#c7c9d1", bg = "NONE" })
+    hl(0, "BlinkCmpMenu", { bg = rgba(226,120,120, 0.7) })
     hl(0, "BlinkCmpMenuBorder", { fg = "#3e4757", bg = "NONE" })
+    hl(0, "BlinkCmpMenuSelection", { link = "CursorLine" })
+    -- hl(0, "BlinkCmpKind", {  })
 
     hl(0, "BlinkCmpDoc", { fg = "#c7c9d1", bg = "NONE" })
     hl(0, "BlinkCmpDocBorder", { fg = "#3e4757", bg = "NONE" })
