@@ -366,6 +366,9 @@ function M.set_highlights()
     hl(0, "SuitecloudBodyFields", { fg = "#a4aecc", italic = true })
     hl(0, "SuitecloudColumnFields", { fg = "#9aafd0", italic = true })
     hl(0, "SuitecloudEntityFields", { fg = "#b3a6d4", italic = true })
+    hl(0, "SuitecloudItemFields", { fg = "#9fb0cc", italic = true })
+    hl(0, "SuitecloudCrmFields", { fg = "#c2aed2", italic = true })
+    hl(0, "SuitecloudOtherFields", { fg = "#aeb8d6", italic = true })
 end
 
 function M.set_globals()
