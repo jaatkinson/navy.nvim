@@ -10,7 +10,7 @@ With lazy.nvim:
 
 ```lua
 {
-  'your-user/navy.nvim',
+  'jaatkinson/navy.nvim',
   lazy = false,
   priority = 1000,
   config = function()
