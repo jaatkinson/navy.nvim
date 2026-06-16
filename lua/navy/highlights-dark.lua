@@ -355,6 +355,9 @@ function M.set_highlights()
 
     hl(0, "LspInlayHint", { fg = "#6c7189" } )
 
+    hl(0, "ComplHint", { fg = "#6d3d56", italic = true } )
+    hl(0, "ComplHintMore", { fg = "#6d3d56", italic = true } )
+
     -- NetSuite scriptId groups (suitecloud.nvim). Top-level object types are
     -- bold; the three custom-field types are italic so they read as a related
     -- family. These are set without { default = true } so they win over the
