@@ -353,7 +353,7 @@ function M.set_highlights()
     hl(0, "FlashPrompt", { link = "Normal" })
     hl(0, "FlashPromptIcon", { fg = "#e2a578", bg = "NONE" })
 
-    hl(0, "LspInlayHint", { fg = "#cfd3e8" } )
+    hl(0, "LspInlayHint", { fg = "#6c7189" } )
 
     -- NetSuite scriptId groups (suitecloud.nvim). Top-level object types are
     -- bold; the three custom-field types are italic so they read as a related
